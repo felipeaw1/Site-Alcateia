@@ -1,0 +1,51 @@
+@import 'compass/reset';
+
+// base colors
+$base-color: #2F292B;
+$dark-color: #231F20;
+$brand-color: #F4CB00;
+
+// typography
+$font-base: Helvetica;
+$font-title: Times;
+$size-title: 28px;
+$size-content: 16em;
+
+// mixin
+@mixin floatRelative {
+	float: left;
+	position: relative;
+}
+
+body {
+   font-family: $font-base;
+}
+
+//header
+header {
+	height: 50px;
+	line-height: 50px;
+	background-color: $brand-color;
+	z-index: 2;
+	figure {
+		@include floatRelative;
+	}
+	nav {
+		.menu-item {
+		}
+	}
+}
+
+// section
+section {
+	background: url(../images/featured-home.jpg) top center no-repeat;
+	min-height: 400px;
+	article {
+		@include floatRelative;
+		width: 100%;
+	}
+	.container {
+		margin-top: 300px;
+		background: #c1c1c1;
+	}
+}
