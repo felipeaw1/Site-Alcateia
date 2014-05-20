@@ -1,5 +1,3 @@
-@import 'compass/reset';
-
 // base colors
 $base-color: #2F292B;
 $dark-color: #231F20;
@@ -28,7 +26,7 @@ header {
 	background-color: $brand-color;
 	z-index: 2;
 	figure {
-		@include floatRelative;
+		@include floatRelative; 
 	}
 	nav {
 		.menu-item {
