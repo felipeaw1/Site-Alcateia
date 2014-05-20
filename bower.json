@@ -1,0 +1,32 @@
+{
+  "name": "Estudio Alcateia",
+  "version": "0.0.1",
+  "authors": [
+    "Felipe Alves Wolfenberg http://falves.net"
+  ],
+  "description": "Site do Estúdio",
+  "main": "assets/scripts/main.js",
+  "moduleType": [
+    "node"
+  ],
+  "keywords": [
+    "estudio",
+    "alcateia",
+    "de",
+    "design"
+  ],
+  "license": "MIT",
+  "homepage": "http://alcateia.cc",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.1",
+    "normalize.css": "~3.0.1"
+  }
+}
